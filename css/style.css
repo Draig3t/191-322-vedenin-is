@@ -3,6 +3,12 @@
 	padding: 0;
 	font-family: 'Big Shoulders Text', cursive;
 }
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 .reg{
 	background-color: lightgray;
 }
@@ -29,16 +35,18 @@ header{
 	flex-direction: column;
 }
 header .up-menu{
-	width: 100%;
+	width: 700px;
 	min-height: 50px;
 	line-height: 50px;
 	display: flex;
 	justify-content: space-around;
 	list-style: none;
+
 	background-color: black;
 }
 header .up-menu li{
 	float: left;
+	margin-left:
 }
 header .up-menu li a{
 	font-size: 20px;
@@ -59,8 +67,17 @@ header p{
 	text-align: center;
 }
 .join-center{
+	width: 700px;
+	border-radius: 25px;
 	display: flex;
 	justify-content: center;
+	background-color: white;
+}
+.form-enter-game{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .button-1{
 	display: flex;
@@ -73,3 +90,16 @@ header p{
 	background-color: blue;
 	border-radius: 10px;
 }
+.gallery{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 500px;
+	justify-content: space-around;
+}
+.gallery img{
+	width: 300px;
+	height: 200px;
+	border: 2px solid black;
+}
+.gall
