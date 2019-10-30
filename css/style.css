@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: 'Big Shoulders Text', cursive;
+	font-family: 'Ubuntu', sans-serif;
 }
 body{
 	display: flex;
@@ -41,8 +41,9 @@ header .up-menu{
 	display: flex;
 	justify-content: space-around;
 	list-style: none;
-
+	border-radius: 0px 0px 20px 20px;
 	background-color: black;
+	margin-bottom: 50px;
 }
 header .up-menu li{
 	float: left;
@@ -65,6 +66,7 @@ header h2{
 }
 header p{
 	text-align: center;
+	margin-bottom: 50px;
 }
 .join-center{
 	width: 700px;
@@ -72,6 +74,7 @@ header p{
 	display: flex;
 	justify-content: center;
 	background-color: white;
+	margin-bottom: 50px;
 }
 .form-enter-game{
 	display: flex;
@@ -90,6 +93,10 @@ header p{
 	background-color: blue;
 	border-radius: 10px;
 }
+.button-1:hover{
+	background-color: #0d3f8f;
+	cursor: pointer;
+}
 .gallery{
 	display: flex;
 	flex-direction: column;
@@ -102,4 +109,7 @@ header p{
 	height: 200px;
 	border: 2px solid black;
 }
-.gall
+.gallery img:hover{
+	 transform: skewX(20deg);
+	 transition: 2s;
+}
