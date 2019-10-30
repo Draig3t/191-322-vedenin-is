@@ -24,3 +24,52 @@
 .center{
 	margin-left: 50px;
 }
+header{
+	display: flex;
+	flex-direction: column;
+}
+header .up-menu{
+	width: 100%;
+	min-height: 50px;
+	line-height: 50px;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	background-color: black;
+}
+header .up-menu li{
+	float: left;
+}
+header .up-menu li a{
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+header .up-menu li a:hover{
+	color: red;
+	transition: 0.7s;
+}
+header h1{
+	text-align: center;
+}
+header h2{
+	text-align-last: center;
+}
+header p{
+	text-align: center;
+}
+.join-center{
+	display: flex;
+	justify-content: center;
+}
+.button-1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-weight: bold;
+	height: 50px;
+	width: 100px;
+	background-color: blue;
+	border-radius: 10px;
+}
